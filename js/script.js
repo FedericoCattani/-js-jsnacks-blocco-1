@@ -7,7 +7,7 @@
     se è dispari inseriscilo nell’array
 */
 
-const numbers =[]
+/*const numbers =[]
 console.log(numbers);
 
 //per 6 volte
@@ -22,5 +22,36 @@ for (let i = 0; i < 6; i++) {
     numbers.push(inputUtente);
   }
 
+}*/
+
+
+
+
+/*
+ JSnack 6:
+    - Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
+*/
+
+
+//data
+
+let y = '';
+const n = parseInt(prompt('Inserisci un numero'));
+let output = document.getElementById('cubo');
+
+//per ogni input utente manda in output il cubo di quel numero
+for (let i = 0; i < n; i++) {
+
+  y = n ** 3;
+  
+  output.innerHTML = `
+  ${y}
+  `
 }
+
+
+
+
+
+
 
