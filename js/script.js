@@ -35,7 +35,7 @@ for (let i = 0; i < 6; i++) {
 
 //data
 
-let y = '';
+/*let y = '';
 const n = parseInt(prompt('Inserisci un numero'));
 let output = document.getElementById('cubo');
 
@@ -43,11 +43,19 @@ let output = document.getElementById('cubo');
 for (let i = 0; i < n; i++) {
 
   y = n ** 3;
-  
+
   output.innerHTML = `
   ${y}
   `
-}
+}*/
+
+
+
+/*
+  
+  JSnack 7:
+    Stampa le potenze di 2 fino a 1000.
+ */
 
 
 
